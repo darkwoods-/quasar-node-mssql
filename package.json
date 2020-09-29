@@ -6,11 +6,7 @@
   "author": "H",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
-    "copybinding": "copy .\\node_modules\\msnodesqlv8\\bindingdotgyp.old .\\node_modules\\msnodesqlv8\\binding.gyp",
-    "rebuild": "cd .\\node_modules\\.bin\\ && electron-rebuild -f -w msnodesqlv8 --module-dir ..\\..\\",
-    "movenode": "move .\\node_modules\\msnodesqlv8\\bin\\win32-x64-69\\msnodesqlv8.node .\\node_modules\\msnodesqlv8\\lib\\bin\\msnodesqlv8.node",
-    "postinstall": "npm run copybinding && npm run rebuild && npm run movenode"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
